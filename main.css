@@ -1,0 +1,123 @@
+/* common elements- includes title, body, paragraph, any general code outside of sections and divisions*/
+body {
+    background-color: #2a3133;
+    font-size: 70%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: .5em;
+}
+h1 {
+    color: white;
+    font-size: 3.0em;
+    margin: auto;
+    text-align: center;
+}
+h2 {
+    color: white;
+    background-color: rgb(22, 94, 92);
+    font-size: 4.0em;
+    margin: auto;
+    text-align: center;
+}
+p {
+    color: white;
+    font-size: 70%;
+}
+ul {
+   font-size: 20px; 
+   margin: 0 0 0 3.0em;
+   padding: 0;
+   list-style: none;
+}
+ul li a {
+    color: white;
+}
+
+header{
+    background-color: rgb(22, 94, 92);
+    margin-top: 0;
+}
+
+.missionStatement {
+    font-size: 40px;
+}
+
+/* social icons ie. facebook or twitter*/
+.social {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    float: right;
+    margin: 0 5px;
+}
+
+/* nav bar  */
+.navbar {
+    display: flex;
+     width: 100%;
+} 
+
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 1.0em;
+    padding-bottom: 2.0em;
+    font-size: 30px;
+    list-style: none;
+}
+
+/* .navbar ul li {
+    display: inline-flex;
+    flex-direction: row;    
+} */
+/* pictures */
+#img1
+{
+    margin-left: 90px;
+}
+.imgbar {
+    width: 20%;
+    margin: 15px;
+    right: 80px;
+}
+
+/* mission statement */
+.missionStatement {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* pics and descriptions */
+.picDescription {
+    display: inline-block;
+    background-color: rgb(33, 78, 77);
+    border: 15px solid rgb(33, 78, 77);
+}
+.picBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic {
+     width: 32%;
+    margin: auto; 
+    }
+
+/* footer  */
+footer {
+    background-color: rgb(33, 78, 77);
+    height: 25px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
